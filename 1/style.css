@@ -1,0 +1,25 @@
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 4px 10px;
+    gap: 5px;
+    border: none;
+    background-color: #1E90FF;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn_icon-magic {
+    display: none;
+}
+
+.btn_icon {
+    height: 15px;
+    width: 15px;
+    font-size: 15px;
+}

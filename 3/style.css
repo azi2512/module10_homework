@@ -1,0 +1,52 @@
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.chat {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input {    
+    flex-grow: 1;
+    border: #23879b solid 3px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 5px;
+    border: none;
+    background-color: #23879b;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.output {
+    border: #23879b solid 3px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 4px;
+    gap: 5px;
+}
+
+.message {
+    border: #23879b solid 3px;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.output_message {
+    align-self: flex-end;
+}
